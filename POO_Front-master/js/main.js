@@ -18,8 +18,8 @@ p1.innerHTML =  persona.getNombre();
 //console.log(data)
 
 const persona1 = new Persona("Alan", "Brito Delgado")
-//data.participantes.push(persona1)
-//console.log(data)
+data.participantes.push(persona1)
+console.log(data)
 
 let nom = "Armando"
 //console.log(data.participantes.filter(element=>element.nombre==nom));

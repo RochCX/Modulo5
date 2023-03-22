@@ -13,3 +13,8 @@ function Pacientes(nom, ape, edad, rut, diag){
 Pacientes.prototype.nombrar = function(){
     return this.nombre +'' + this.apellido;
 }
+// cambiar a singular las clases
+
+Pacientes.prototype.setNombre = function(nombre){
+    this.nombre = nombre;
+}
